@@ -1,0 +1,25 @@
+/* Algoritmos Gulosos ==>> escolhas localmente ótimas na esperança de
+que ao final teremos a melhor solução possível (globalmente ótima) */
+
+/* Requisitos para a estratégia gulosa funcionar:
+1 - Deve haver como descrever a solução do problema como uma sequência
+de escolhas (e deve haver uma sequência específica que seja ótima).
+2 - Escolha gulosa: as escolhas são localmente ótimas.
+3 - Subestrutura ótima: uma solução ótima para o problema contém em si
+soluções ótimas para os subproblemas.
+*/
+
+/* Exemplos clássicos de algoritmos gulosos e ótimos:
+- Kruskal para a árvore geradora mínima (Grafos).
+- Prim para a árvore geradora mínima (Grafos).
+- Dijkstra para o caminho mínimo (Grafos).
+- Código de Huffman para compressão de arquivos.
+*/
+
+OBS:
+Usar soluções gulosas em campeonatos é arriscado!
+Normalmente não recebem TLE (time limit exceeded), mas tendem a receber 
+WA (wrong answer).
+Provar que está correto pode levar tempo.
+Geralmente, quando a solução da questão aparenta ser gulosa, é uma
+armadilha (ou é a questão fácil para todos acertarem).
